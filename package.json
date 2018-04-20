@@ -1,7 +1,7 @@
 {
   "name": "node-gzip",
   "version": "1.0.0",
-  "description": "Gzip a string in Node.js",
+  "description": "Gzip and ungzip in Node.js",
   "main": "index.js",
   "scripts": {},
   "author": "Rebsos",
