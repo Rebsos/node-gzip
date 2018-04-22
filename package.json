@@ -7,6 +7,10 @@
     "build": "rm -rf dist && mkdir dist && babel src --out-dir dist"
   },
   "author": "Rebsos",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Rebsos/node-gzip.git"
+  },
   "license": "MIT",
   "devDependencies": {
     "babel-cli": "^6.26.0",
