@@ -67,6 +67,8 @@ await gzip('Hello World', {...});
 
 Use `toString()` after `ungzip` to convert the Buffer into a string.
 
+Supports Node.js version 0.12 and higher.
+
 ---
 
 ### License
