@@ -1,7 +1,7 @@
 {
   "name": "node-gzip",
   "version": "1.1.0",
-  "description": "Gzip and ungzip in Node.js",
+  "description": "Simply gzip and ungzip in Node.js with promises",
   "main": "dist/index.js",
   "scripts": {
     "build": "rm -rf dist && mkdir dist && babel src --out-dir dist"
