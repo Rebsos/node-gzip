@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "Gzip and ungzip in Node.js",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "build": "rm -rf dist && mkdir dist && babel src --out-dir dist"
+  },
   "author": "Rebsos",
   "license": "MIT",
   "devDependencies": {
