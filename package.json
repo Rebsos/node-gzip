@@ -1,6 +1,6 @@
 {
   "name": "node-gzip",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Simply gzip and ungzip in Node.js with promises",
   "main": "dist/index.js",
   "scripts": {
