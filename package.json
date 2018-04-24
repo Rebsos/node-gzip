@@ -11,6 +11,21 @@
     "type": "git",
     "url": "https://github.com/Rebsos/node-gzip.git"
   },
+  "keywords": [
+    "node",
+    "gzip",
+    "compress",
+    "promise",
+    "gunzip",
+    "ungzip",
+    "decompress",
+    "uncompress",
+    "gz",
+    "zlib",
+    "async",
+    "await",
+    "promises"
+  ],
   "license": "MIT",
   "devDependencies": {
     "babel-cli": "^6.26.0",
