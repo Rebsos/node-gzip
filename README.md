@@ -4,7 +4,7 @@
 Tiny and easy to use wrapper around [zlib.gzip](https://nodejs.org/api/zlib.html#zlib_zlib_gzip_buffer_options_callback) and [zlib.gunzip](https://nodejs.org/api/zlib.html#zlib_zlib_gunzip_buffer_options_callback) to support promises.
 
 ```js
-let compressed = await gzip('Hello World');
+const compressed = await gzip('Hello World');
 ```
 
 ## Install
@@ -25,8 +25,8 @@ gzip('Hello World')
   .then((compressed) => {
     return ungzip(compressed);
   })
-  .then((uncompressed) => {
-    console.log(uncompressed.toString());     //Hello World
+  .then((decompressed) => {
+    console.log(decompressed.toString());     //Hello World
   });
 ```
 
@@ -35,11 +35,11 @@ gzip('Hello World')
 ```js
 const {gzip, ungzip} = require('node-gzip');
 
-let compressed = await gzip('Hello World');
+const compressed = await gzip('Hello World');
 
-let uncompressed = await ungzip(compressed);
+const decompressed = await ungzip(compressed);
 
-console.log(uncompressed.toString());        //Hello World
+console.log(decompressed.toString());        //Hello World
 ```
 
 
